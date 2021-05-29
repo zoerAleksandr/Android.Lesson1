@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Android.Lesson1</string>
+    <string name="exampleText">Поле ввода текста</string>
+    <string name="edit_text">Введите текст</string>
+    <string name="switch_text">switch </string>
+    <string name="check_box">check me</string>
+    <string name="toggle_on">вкл</string>
+    <string name="toggle_off">выкл</string>
+    <string name="btn_text">go to new layout</string>
+    <string name="hint_text">Введите текст</string>
+    <string name="hint_textPersonName">Введите Имя</string>
+    <string name="hint_phone">Введите номер телефона</string>
+    <string name="hint_number">Введите число</string>
+    <string name="hint_textPassword">Введите пароль</string>
+    <string name="hint_textEmailAddress">Введите email</string>
+    <string name="btn_second_calendar">go to calendar</string>
+    <string name="btn_back">back</string>
 </resources>

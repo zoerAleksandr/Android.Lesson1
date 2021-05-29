@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:autofillHints="@string/hint_text"
+        android:hint="@string/hint_text"
+        android:inputType="text"
+        tools:text="@string/hint_text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:autofillHints="@string/hint_textPersonName"
+        android:hint="@string/hint_textPersonName"
+        android:inputType="text"
+        tools:text="@string/hint_textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:autofillHints="@string/hint_phone"
+        android:hint="@string/hint_phone"
+        android:inputType="phone"
+        tools:text="@string/hint_phone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:autofillHints="@string/hint_number"
+        android:hint="@string/hint_number"
+        android:inputType="number"
+        tools:text="@string/hint_number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:autofillHints="@string/hint_textPassword"
+        android:hint="@string/hint_textPassword"
+        android:inputType="textPassword"
+        tools:text="@string/hint_textPassword" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:autofillHints="@string/hint_textEmailAddress"
+        android:hint="@string/hint_textEmailAddress"
+        android:inputType="textEmailAddress"
+        tools:text="@string/hint_textEmailAddress" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_second_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_gravity="bottom"
+            android:text="@string/btn_back" />
+
+        <Button
+            android:id="@+id/btn_second_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_gravity="bottom"
+            android:text="@string/btn_second_calendar" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
